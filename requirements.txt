@@ -1,0 +1,4 @@
+prefect==3.*
+boto3
+requests
+httpx
