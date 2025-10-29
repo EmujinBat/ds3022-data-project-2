@@ -4,7 +4,7 @@ and it successfully completed the DP2 simple pipeline challenge. """
 
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-from airflow.sdk import Variable
+from airflow.model import Variable
 from datetime import datetime, timedelta
 import boto3, time
 
